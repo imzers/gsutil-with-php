@@ -1,0 +1,11 @@
+C:\Python27>
+python "C:\gsutil\gsutil" -m cp gs://pubsite_prod_rev_12173192579434914685/stats/installs C:\gsutil\download\report\installs\id
+
+A newer version of gsutil (4.21) is available than the version you are
+
+
+C:\Python27>
+python "C:\gsutil\gsutil" -m cp -r gs://pubsite_prod_rev_17074308628370687695/stats/installs/* C:\gsutil\download\report\installs\th
+
+
+python "C:\gsutil\gsutil" ls gs://pubsite_prod_rev_17074308628370687695/stats/installs/ > "C:\gsutil\batch\log\report\th.txt" 2>&1

@@ -1,0 +1,32 @@
+Thailand Store
+----------------
+gs://pubsite_prod_rev_17074308628370687695/stats/installs
+gs://pubsite_prod_rev_17074308628370687695/stats/ratings
+gs://pubsite_prod_rev_17074308628370687695/stats/crashes
+gs://pubsite_prod_rev_17074308628370687695/stats/gcm
+--
+gs://pubsite_prod_rev_17074308628370687695/earnings/
+gs://pubsite_prod_rev_17074308628370687695/sales/
+
+Indonesia Store
+----------------
+gs://pubsite_prod_rev_12173192579434914685/stats/installs
+gs://pubsite_prod_rev_12173192579434914685/stats/ratings
+gs://pubsite_prod_rev_12173192579434914685/stats/crashes
+gs://pubsite_prod_rev_12173192579434914685/stats/gcm
+--
+gs://pubsite_prod_rev_12173192579434914685/earnings/
+gs://pubsite_prod_rev_12173192579434914685/sales/
+
+Vietnam Store
+----------------
+gs://pubsite_prod_rev_10181034016610002991/stats/installs
+gs://pubsite_prod_rev_10181034016610002991/stats/ratings
+gs://pubsite_prod_rev_10181034016610002991/stats/crashes
+gs://pubsite_prod_rev_10181034016610002991/stats/gcm
+--
+gs://pubsite_prod_rev_10181034016610002991/earnings/
+gs://pubsite_prod_rev_10181034016610002991/sales/
+
+
+
