@@ -27,8 +27,8 @@ if (!in_array($gm->config['client']['user_proxy'], $gm->config['allow_ip'])) {
 }
 */
 #Connect to log database
-if (!$gm->db_connect($gm->config['database']['mysql']['gsutil'], 'mysql')) {
-	$gm->error('Cannot connect to shared database with MySQL Server.');
+if (!$gm->db_connect($gm->config['database']['mysql']['googlestorage'], 'mysql')) {
+	$gm->error('Cannot connect to googlestorage database with MySQL Server.');
 }
 /*
 #Connect to KPIDB database

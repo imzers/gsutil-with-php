@@ -5,7 +5,7 @@ ini_set('display_errors', true);
 #set_magic_quotes_runtime(0);
 $local_path = __DIR__;
 include($local_path.'/config.php');
-include($local_path.'/class.php');
+include($local_path.'/class.global.php');
 if (isset($_POST['GLOBALS']) || isset($_FILES['GLOBALS']) || isset($_GET['GLOBALS']) || isset($_COOKIE['GLOBALS'])) {
 	die ('Forbidden: 403.');
 	}
@@ -27,13 +27,11 @@ if (!in_array($gm->config['client']['user_proxy'], $gm->config['allow_ip'])) {
 }
 */
 #Connect to log database
-if (!$gm->db_connect($gm->config['database']['mysql']['gsutil'], 'mysql')) {
+if (!$mysql = $gm->db_connect_resources($gm->config['database']['mysql']['gsutil'], 'mysql')) {
 	$gm->error('Cannot connect to shared database with MySQL Server.');
 }
-/*
 #Connect to KPIDB database
-if (!$gm->db_connect($gm->config['database']['mssql']['kpidb'], 'mssql')) {
+if (!$mssql = $gm->db_connect_resources($gm->config['database']['mssql']['kpidb'], 'mssql')) {
 	$gm->error('Cannot connect to shared database with Microsoft SQL Server.');
 }
-*/
 ?>
